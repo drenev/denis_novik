@@ -1,3 +1,8 @@
+h1,
+h2,
+p {
+  margin: 0;
+}
 .body {
   font-family: "Roboto", sans-serif;
 }
@@ -60,6 +65,7 @@
   color: #828282;
   text-decoration: none;
   font-weight: 550;
+  margin: 0;
 }
 .header__lang-link_active {
   color: black;
@@ -91,8 +97,10 @@
   line-height: 42px;
   text-align: center;
   margin: 0;
+  margin-bottom: 22px;
 }
 .about-me__text {
+  margin-bottom: 22px;
   font-size: 18px;
   line-height: 22px;
   text-align: center;
@@ -148,4 +156,92 @@
 .skills__card-stars-container {
 }
 .skills__card-star_black {
+}
+.portfolio {
+  background-color: #f6f6f6;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.portfolio__tittle {
+  margin: 0;
+  margin-bottom: 47px;
+  font-size: 34px;
+  line-height: 42px;
+  text-align: center;
+}
+.portfolio__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 940px;
+  margin-bottom: 100px;
+}
+.portfolio__item:last-child {
+  margin-bottom: 0;
+}
+.portfolio__item-image {
+  width: 100%;
+}
+.portfolio__item-link {
+  color: #070707;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  text-decoration-line: underline;
+  margin-top: 44px;
+}
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+.footer__tittle {
+  margin-bottom: 20px;
+  font-size: 34px;
+  line-height: 42px;
+  text-align: center;
+}
+.footer__subtittle {
+  margin-bottom: 30px;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+}
+.footer__button-container{
+  height: 42px;
+  width: 180px;
+  border-radius: 42px;
+  background-color: #070707;
+  margin-bottom: 85px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer__button {
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  color: #ffffff;
+  text-decoration: none;
+}
+.footer__container {
+  margin-bottom: 45px;
+  width: 342px;
+  display: flex;
+  justify-content: space-between;
+}
+.footer__container-link {
+}
+.footer__container-image {
+}
+.footer__text {
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: #828282;
 }
